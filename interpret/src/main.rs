@@ -1,7 +1,7 @@
-use anyhow::Result;
+use std::error::Error;
 use wasmtime::*;
 
-fn main() -> Result<()> {
+fn main() -> Result<(), Box<dyn Error>> {
     // Modules can be compiled through either the text or binary format
     let engine = Engine::default();
     let wat = r#"
