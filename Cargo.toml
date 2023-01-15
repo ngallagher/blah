@@ -1,6 +1,6 @@
 
 
 [workspace]
-members = ["parse", "tree"]
+members = ["parse", "tree", "interpret"]
 
 

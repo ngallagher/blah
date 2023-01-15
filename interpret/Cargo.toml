@@ -1,0 +1,8 @@
+[package]
+name = "interpret"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+wasmtime = "4.0.0"
